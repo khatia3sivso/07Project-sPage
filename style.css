@@ -1,8 +1,9 @@
 .background-decor{
-    width: 100%;
+    width: 1920px;
     height: 308px;
     background: #0A22F4 0% 0% no-repeat padding-box;
     opacity: 1;
+    position: relative;
 }
 h3{
     display: inline-block;
@@ -15,4 +16,48 @@ h3{
     color: #FFFFFF;
     text-transform: uppercase;
     opacity: 1;
+}
+.box1{
+    display:inline-block;
+}
+
+.image1{
+    /* Layout Properties */
+    top: 188px;
+    left: 240px;
+    width: 463px;
+    height: 420px;
+    border-radius: 15px;
+    opacity: 1;
+    position: absolute;
+    z-index: 10;
+}
+.text-box{
+    top: 473px;
+    left: 250px;
+    width: 443px;
+    height: 125px;
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+    z-index: 20;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.text1{
+    width: 339px;
+    height: 65px;
+    margin: 30px;
+    display: inline-block;
+    font: normal normal normal 18px/22px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #171717;
+    text-transform: uppercase;
+    opacity: 1;
+    position:absolute;
+    z-index: 30;
+
 }
