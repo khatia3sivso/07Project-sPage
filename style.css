@@ -1,0 +1,18 @@
+.background-decor{
+    width: 100%;
+    height: 308px;
+    background: #0A22F4 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+h3{
+    display: inline-block;
+    width: 184px;
+    height: 38px;
+    margin-top: 90px;
+    margin-left: 100px;
+    font: normal normal bold 32px/39px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
