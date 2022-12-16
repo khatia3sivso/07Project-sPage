@@ -1,9 +1,9 @@
 .background-decor{
-    width: 1920px;
+    width: 1900px;
     height: 308px;
     background: #0A22F4 0% 0% no-repeat padding-box;
     opacity: 1;
-    position: relative;
+
 }
 h3{
     display: inline-block;
@@ -17,8 +17,9 @@ h3{
     text-transform: uppercase;
     opacity: 1;
 }
-.box1{
+.box1, .box2, .box3{
     display:inline-block;
+    
 }
 
 .image1{
@@ -32,9 +33,27 @@ h3{
     position: absolute;
     z-index: 10;
 }
-.text-box{
-    top: 473px;
-    left: 250px;
+
+.image2{
+    top: 103px;
+    left: 728px;
+    border-radius: 15px;
+    opacity: 1;
+    position:absolute;
+    z-index:10;
+}
+
+.image3{
+    top: 188px;
+    left: 1316px;
+    width: 463px;
+    height: 420px;
+    border-radius: 15px;
+    opacity: 1;
+    position: absolute;
+    z-index: 10;
+}
+.text-box1, .text-box2, .text-box3{
     width: 443px;
     height: 125px;
     text-align: left;
@@ -47,7 +66,24 @@ h3{
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
-.text1{
+
+.text-box1{
+    top: 473px;
+    left: 250px;
+    display: inline-block;
+}
+.text-box2{
+    top: 423px;
+    left: 783px;
+    display: inline-block;
+}
+
+.text-box3{
+    top: 473px;
+    left: 1326px;
+    display: inline-block;
+}
+.text1, .text2, .text3{
     width: 339px;
     height: 65px;
     margin: 30px;
@@ -59,5 +95,26 @@ h3{
     opacity: 1;
     position:absolute;
     z-index: 30;
+}
+button{
 
+    height: 22px;
+    display: inline-block;
+    text-align: left;
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    font: normal normal bold 18px/23px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #171717;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+}
+.button{
+    display: inline-block;
+    top: 478px;
+    left: 1515px;
+    position: relative;
 }
